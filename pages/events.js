@@ -25,6 +25,9 @@ const EventsPage = () => {
           content
           startDate
           endDate
+          image {
+            url
+          }
         }
       }
     `,

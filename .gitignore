@@ -3,5 +3,6 @@
 node_modules
 static/images/stock
 locale/_build
-.env.local
 .vercel
+.env.local
+

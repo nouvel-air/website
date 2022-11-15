@@ -9,6 +9,7 @@ import { Button } from '../input';
 import { PageLink } from '../../utils/router';
 import { Hidden, Visible } from '../layout';
 import LinkIcon from '../../svg/link.svg';
+import SideImage from "../media/SideImage";
 
 const fromDateToDate = (event, i18n) => {
   const startDate = new Date(event.startDate);
@@ -88,6 +89,11 @@ const Event = ({ event, showMore, expand }) => {
               }
             </SubTitle>
             <P m="10px 0" italic>{fromDateToDate(event, i18n)}</P>
+            {event.image &&
+              <a href={event.image.url} target="_blank">
+                <SideImage align="right" src={event.image.url} />
+              </a>
+            }
             <Markdown>{event.content}</Markdown>
             {showMore && (
               <Visible sm md lg xl>
