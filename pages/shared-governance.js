@@ -49,20 +49,20 @@ const SharedGovernancePage = () => (
       <ul>
         <li>
           <P>
-            Permettre une plus grande implication des membres, quel que soit leur statut (cadre, employé, bénévole...)
-            en leur permettant de trouver leur juste place dans l'organisation.
+            Permettre une plus grande implication des membres, en aidant chacun (cadres, employés, bénévoles...) à
+            trouver sa juste place dans l'organisation.
           </P>
         </li>
         <li>
           <P>
-            Mettre en valeur la raison d'être de l'organisation, afin qu'elle soit en phare dans les actions posées par
-            chacun et chacun au quotidien.
+            Mettre en valeur la raison d'être de l'organisation, afin qu'elle soit un phare pour les actions posées au
+            quotidien.
           </P>
         </li>
         <li>
           <P>
             Proposer des réunions plus efficaces et satisfaisantes pour tout le monde, grâce à des cadres clairs
-            permettant à tout le monde de s'exprimer et de contribuer.
+            permettant à chacun de s'exprimer et de contribuer.
           </P>
         </li>
         <li>
@@ -78,6 +78,7 @@ const SharedGovernancePage = () => (
           </P>
         </li>
       </ul>
+      <P style={{ clear: 'both' }}></P>
     </ContentSection>
     <InformationSection image="coeur-poumons-2.jpg">
       <SubTitle>L'analogie coeur-poumons</SubTitle>
