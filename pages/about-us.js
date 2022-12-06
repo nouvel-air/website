@@ -70,7 +70,7 @@ const AboutUsPage = () => (
     <QuoteSection title="Notre raison d'être" author="Co-écrite en juillet 2022" color="black" bg="secondaryLight">
       Conscients que les organisations sont des corps vivants ayant besoin d'attention et de soin,
       nous désirons proposer des méthodes et outils innovants qui les aident à trouver équilibre et vitalité,
-      afin qu'elles puissent pleinement réaliser leur raison d'être au sein de l'écosystème dans lequel elles sont se incarnées.
+      afin qu'elles puissent pleinement réaliser leur raison d'être au sein de l'écosystème dans lequel elles se sont incarnées.
     </QuoteSection>
     <ClientSection />
     <TestimonySection id="15667581" />
