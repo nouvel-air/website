@@ -53,7 +53,7 @@ const IndexPage = () => (
     <AnnounceSection link="/static/pdf/offre-accompagnement-gratuit.pdf">
       Offre de Constellation gratuite pour associations et collectifs.
       <br />
-      Candidatures ouvertes jusqu'au 21 décembre 2022 !
+      Candidatures ouvertes jusqu'au 21 janvier 2023 !
     </AnnounceSection>
     <MenuSection left title="Qui sommes-nous ?" image="about-us.jpg" link="about-us">
       Après nous être engagés plusieurs années ensemble dans le monde associatif, nous avons décidé en 2022 de mettre
