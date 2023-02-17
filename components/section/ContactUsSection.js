@@ -44,7 +44,7 @@ class ContactSection extends React.Component {
               N'hésitez pas à prendre contact avec nous pour discuter de vos besoins et envies, nous serons ravis de vous rencontrer.
             </P>
             <P>
-              Vous pouvez également appeler Sébastien ou lui envoyer un SMS au <a href="tel:+33645955187">06 45 95 51 87</a>.
+              Vous pouvez également appeler Sébastien au <a href="tel:+33645955187">06 45 95 51 87</a> ou Elisa au <a href="tel:+33659026479">06 59 02 64 79</a>.
             </P>
           </Div>
         </Cell>
