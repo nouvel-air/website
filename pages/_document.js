@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
           <link href="/static/fonts/stylesheet.css" rel="stylesheet" />
           <meta name="google-site-verification" content="myJ_CwUBXOaGJlyttvQKhJtgoiJgNXjOV0HA_pPxRBQ" />
           <meta httpEquiv="Content-Language" content={locale} />
-          <script async defer src="https://analytics.umami.is/script.js" data-website-id={process.env.NEXT_PUBLIC_UMAMI_WEBSITE_ID}></script>
+          <script async defer src="https://analytics.umami.is/script.js" data-website-id="d0ba98f1-4d2c-4c39-a5b6-6f3c1abe76b3"></script>
           <script dangerouslySetInnerHTML={{ __html: linguiCatalog }} />
           {this.props.styleTags}
         </Head>
