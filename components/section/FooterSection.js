@@ -33,7 +33,7 @@ class FooterSection extends React.Component {
               Nouvel air
             </P>
             <P color="white" linkColor="white" lineHeight="1.4em">
-              Copyright &copy; 2022
+              Copyright &copy; 2022-2023
             </P>
           </Cell>
           <Cell w={{ xs: 1, sm: 1 / 4 }}>

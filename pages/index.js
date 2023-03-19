@@ -1,11 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
-import {Layout} from 'components/app';
-import {Div} from 'components/layout';
-import {BgImage} from 'components/media';
-import {P, H} from 'components/text';
-import {AnimOnAppear} from 'components/motion';
-import {MenuSection, FooterSection, QuoteSection, AnnounceSection} from 'components/section';
+import { Layout } from 'components/app';
+import { Div } from 'components/layout';
+import { BgImage } from 'components/media';
+import { P } from 'components/text';
+import { AnimOnAppear } from 'components/motion';
+import { MenuSection, FooterSection, QuoteSection } from 'components/section';
 import ClientSection from "../components/section/ClientSection";
 
 const IndexPage = () => (
@@ -50,11 +50,6 @@ const IndexPage = () => (
       afin qu'elles puissent pleinement réaliser leur raison d'être au sein de l'écosystème dans lequel elles se sont incarnées.
     </QuoteSection>
     <ClientSection />
-    <AnnounceSection link="/static/pdf/offre-accompagnement-gratuit.pdf">
-      Offre de Constellation gratuite pour associations et collectifs.
-      <br />
-      Candidatures ouvertes jusqu'au 21 janvier 2023 !
-    </AnnounceSection>
     <MenuSection left title="Qui sommes-nous ?" image="about-us.jpg" link="about-us">
       Après nous être engagés plusieurs années ensemble dans le monde associatif, nous avons décidé en 2022 de mettre
       en commun nos compétences et de créer Nouvel air. Notre envie ? Aider les organisations à déployer leurs

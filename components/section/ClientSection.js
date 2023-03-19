@@ -8,6 +8,7 @@ const clients = {
   'jardiniers-du-nous.png': 'https://www.jardiniersdunous.org/',
   'chemins-de-la-transition.png': 'https://lescheminsdelatransition.org/',
   'assemblee-virtuelle.png': 'https://assemblee-virtuelle.org/',
+  'coop-des-territoires.png': 'https://www.lacoop.co/',
 };
 
 const ClientSection = () => (
