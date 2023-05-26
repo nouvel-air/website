@@ -17,7 +17,7 @@ const TestimoniesPage = () => {
   const { loading, error, data } = useQuery(
     gql`
       query ($tag: String) {
-        allTestimonyFrs(filter: { participatedAt: { eq: $tag } }) {
+        allTestimonyFrs(filter: { participatedAt: { eq: $tag } }, first: 100) {
           title
           content(markdown: true)
           surname
