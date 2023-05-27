@@ -19,7 +19,7 @@ const EventsPage = () => {
   const { loading, error, data } = useQuery(
     gql`
       query ($now: DateTime!, $tag: String) {
-        allEventFrs(orderBy: startDate_ASC, filter: { endDate: { gt: $now }, topic: { eq: $tag } }) {
+        allEventFrs(orderBy: startDate_ASC, filter: { endDate: { gt: $now }, topic: { eq: $tag } }, first: 100) {
           id
           title
           content

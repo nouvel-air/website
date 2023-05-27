@@ -18,7 +18,7 @@ const EventPage = () => {
   const { loading, data } = useQuery(
     gql`
       query ($eventId: ItemId!) {
-        eventFr(filter: { id: { eq: $eventId } }, first: 100) {
+        eventFr(filter: { id: { eq: $eventId } }) {
           id
           title
           content
