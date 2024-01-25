@@ -5,7 +5,7 @@ import { Div } from 'components/layout';
 import { BgImage } from 'components/media';
 import { P } from 'components/text';
 import { AnimOnAppear } from 'components/motion';
-import { MenuSection, FooterSection, QuoteSection } from 'components/section';
+import { MenuSection, FooterSection, QuoteSection, AnnounceSection } from 'components/section';
 import ClientSection from "../components/section/ClientSection";
 
 const IndexPage = () => (
@@ -44,6 +44,9 @@ const IndexPage = () => (
         <br/>
       </Div>
     </BgImage>
+    <AnnounceSection link="/fr/agenda/65765622" linkCaption="Informations et inscription">
+      Le défi gouvernance partagée est de retour à Compiègne ! Les 3-4-5 mai 2024
+    </AnnounceSection>
     <QuoteSection title="Notre raison d'être" author="Co-écrite en juillet 2022" color="black" bg="secondaryLight">
       Conscients que les organisations sont des corps vivants ayant besoin d'attention et de soin,
       nous désirons proposer des méthodes et outils innovants qui les aident à trouver équilibre et vitalité,

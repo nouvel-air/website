@@ -128,7 +128,7 @@ const OrganizationalConstellationsPage = () => (
         Pour candidater, merci de prendre connaissance de <a href="/static/pdf/offre-accompagnement-gratuit.pdf" target="_blank">ce document</a>.
       </P>
       <P>
-        <em>Les candidatures pour la deuxième session sont ouvertes ! Date limite: 1er novembre 2023</em>
+        <em>Les candidatures pour la deuxième session sont ouvertes ! Date limite: 1er novembre 2024</em>
       </P>
       <P style={{clear: 'both'}}></P>
     </ContentSection>

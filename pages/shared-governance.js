@@ -8,7 +8,7 @@ import {
   FooterSection,
   TestimonySection,
   ContentSection,
-  QuoteSection
+  AnnounceSection
 } from 'components/section';
 import { Trans } from '@lingui/macro';
 import ContactUsSection from "../components/section/ContactUsSection";
@@ -19,6 +19,9 @@ const SharedGovernancePage = () => (
     <Head>
       <title>Gouvernance partagée à Compiègne et à Paris - Nouvel air</title>
     </Head>
+    <AnnounceSection link="/fr/agenda/65765622" linkCaption="Informations et inscription">
+      Le défi gouvernance partagée est de retour à Compiègne ! Les 3-4-5 mai 2024
+    </AnnounceSection>
     <TopSection image="gouvernance-partagee.jpg">
       <Trans id="shared-governance.title">Gouvernance partagée</Trans>
     </TopSection>
