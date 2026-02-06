@@ -53,7 +53,7 @@ const InformationLiberationPage = () => (
       </P>
       <P style={{ clear: 'both' }}></P>
     </ContentSection>
-      <InformationSection image="organigraph.png" link="https://cercles.jardiniersdunous.org" linkCaption="Voir l'instance des Jardiniers du Nous">
+      <InformationSection image="organigraph.png" link="https://cercles.reconnexion.coop" linkCaption="Voir l'instance de la coopérative Reconnexion">
         <SubTitle>OrganiGraph</SubTitle>
         <P>
           Logiciel <a href="https://github.com/assemblee-virtuelle/organigraph" target="_blank">open-source</a> que nous avons développé avec l’objectif d’aider les

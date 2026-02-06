@@ -4,8 +4,8 @@
   "description": "Anna Elisa Valmori",
   "scripts": {
     "dev": "node dev-server.js",
-    "build": "next build",
-    "start": "next start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "vercel:dev": "vercel dev",
     "vercel:deploy": "vercel",
     "vercel:alias": "vercel alias nouvel-air.org",
