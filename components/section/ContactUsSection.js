@@ -60,7 +60,7 @@ class ContactSection extends React.Component {
                   }}
                 >
                   {this.state.messageSent && (
-                    <BorderedDiv borderRadius="5px" bg="lightGreen" p="15px" m="0 0 15px">
+                    <BorderedDiv borderRadius="5px" bg="success" p="15px" m="0 0 15px">
                       <Text>Votre message a bien été envoyé, merci !</Text>
                     </BorderedDiv>
                   )}
